@@ -1,3 +1,18 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.social-link {
+  font-size: 17px;
+  font-weight: 500;
+  background: #333;
+  border-radius: 8px;
+  margin: 5px 0;
+  padding: 5px 0;
+  transition: 0.2s;
+}
+
+.social-link:hover {
+  background: yellow;
+  color: #1e1e1e;
+}
